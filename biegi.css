@@ -8,7 +8,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Nagłówek jest pusty w podanym HTML, ale pozostawiam jego style na wypadek gdybyś go dodał/a później */
 .header-section {
     background-color: #6a2828; 
     color: #ffffff;
