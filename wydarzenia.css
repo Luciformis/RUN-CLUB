@@ -1,0 +1,44 @@
+#wydarzenia {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#wydarzenia h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #7b0000;
+}
+
+.event-list {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.event {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-left: 5px solid #7b0000;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.event h3 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.event p {
+  margin: 0;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .event {
+    font-size: 16px;
+  }
+}
